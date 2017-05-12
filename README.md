@@ -1,6 +1,20 @@
 # Anti-Duplicator
+# Description
+This script will show duplicated file in asked directory. The criteria duplicated files - same name and size.
 
-[TODO. There will be project description]
+# How to use
+```#!bash
+
+ 
+>>>python3 duplicates.py <dir_where_to_find_duplicates>
+**************************************************Same files group**************************************************
+dir_A/bar
+dir_A/dir_C/bar
+**************************************************Same files group**************************************************
+dir_A/foo
+dir_A/dir_B/foo
+dir_A/dir_C/foo
+```
 
 # Project Goals
 
